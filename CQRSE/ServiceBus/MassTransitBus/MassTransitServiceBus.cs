@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Autofac;
-using HelloCQRS.Messages;
+using CQRSE.Messages;
 using MassTransit;
 
-namespace HelloCQRS.ServiceBus.MassTransitBus
+namespace CQRSE.ServiceBus.MassTransitBus
 {
     public class MassTransitServiceBus : IServiceBus
     {

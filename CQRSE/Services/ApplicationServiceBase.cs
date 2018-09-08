@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
-using HelloCQRS.Aggregates;
-using HelloCQRS.Messages;
-using HelloCQRS.Repositories;
+using CQRSE.Aggregates;
+using CQRSE.Messages;
+using CQRSE.Repositories;
 
-namespace HelloCQRS.Services
+namespace CQRSE.Services
 {
     public class ApplicationServiceBase
     {

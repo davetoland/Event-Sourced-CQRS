@@ -1,5 +1,5 @@
 ﻿
-namespace HelloCQRS.QueryModel
+namespace CQRSE.QueryModel
 {
     public interface IProjectionFactory
     {

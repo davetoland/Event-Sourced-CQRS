@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using HelloCQRS.Aggregates;
-using HelloCQRS.Messages;
-using HelloCQRS.ServiceBus;
+using CQRSE.Aggregates;
+using CQRSE.Messages;
+using CQRSE.ServiceBus;
 
-namespace HelloCQRS.Repositories
+namespace CQRSE.Repositories
 {
     public class InMemoryRepository : IRepository
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace HelloCQRS
+namespace CQRSE
 {
     public class Invoker
     {

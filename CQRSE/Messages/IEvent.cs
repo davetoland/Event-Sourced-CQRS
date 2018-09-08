@@ -1,4 +1,4 @@
-﻿namespace HelloCQRS.Messages
+﻿namespace CQRSE.Messages
 {
     public interface IEvent { }
 }

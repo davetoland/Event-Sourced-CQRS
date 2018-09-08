@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using HelloCQRS.Messages;
+using CQRSE.Messages;
 
-namespace HelloCQRS.ServiceBus
+namespace CQRSE.ServiceBus
 {
     public interface IServiceBus
     {

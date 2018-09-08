@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace HelloCQRS.Messages
+namespace CQRSE.Messages
 {
     public static class EventExtensions
     {

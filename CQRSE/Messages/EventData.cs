@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HelloCQRS.Messages
+namespace CQRSE.Messages
 {
     public sealed class EventData
     {

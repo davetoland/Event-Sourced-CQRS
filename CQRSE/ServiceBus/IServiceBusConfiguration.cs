@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HelloCQRS.ServiceBus
+namespace CQRSE.ServiceBus
 {
     public interface IServiceBusConfiguration
     {

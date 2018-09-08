@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using HelloCQRS.Aggregates;
+using CQRSE.Aggregates;
 
-namespace HelloCQRS.Repositories
+namespace CQRSE.Repositories
 {
     public interface IRepository
     {

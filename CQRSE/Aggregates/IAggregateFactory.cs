@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using HelloCQRS.Messages;
-using HelloCQRS.ServiceBus;
+using CQRSE.Messages;
+using CQRSE.ServiceBus;
 
-namespace HelloCQRS.Aggregates
+namespace CQRSE.Aggregates
 {
     public interface IAggregateFactory
     {

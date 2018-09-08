@@ -2,7 +2,7 @@
 using Autofac;
 using Microsoft.Extensions.Configuration;
 
-namespace HelloCQRS.ServiceBus.MassTransitBus
+namespace CQRSE.ServiceBus.MassTransitBus
 {
     public class MassTransitServiceBusConfiguration : IServiceBusConfiguration
     {
