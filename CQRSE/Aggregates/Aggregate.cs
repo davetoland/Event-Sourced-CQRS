@@ -20,10 +20,10 @@ namespace CQRSE.Aggregates
             UncommittedEvents = new List<IEvent>();
 
             foreach (var e in events)
-                ApplyEvent(e);
+                HandleEvent(e);
         }
 
-        protected void ApplyEvent(IEvent e)
+        protected void HandleEvent(IEvent e)
         {
             Version++;
             Invoker.InvokeEvent(this, e);
@@ -31,7 +31,7 @@ namespace CQRSE.Aggregates
 
         protected void ProcessNewEvent(IEvent e)
         {
-            ApplyEvent(e);
+            HandleEvent(e);
             UncommittedEvents.Add(e);
             ServiceBus.Publish(e);
         }
